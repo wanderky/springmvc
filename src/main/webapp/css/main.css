@@ -1,0 +1,12 @@
+.layui-container{
+    padding: 300 0;
+}
+.layui-box{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+.sys-name{
+    text-align: center;
+    padding: 10px 0;
+}
