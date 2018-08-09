@@ -5,6 +5,18 @@
          id="WebApp_ID" version="3.0">
   <display-name>springmvc</display-name>
 
+  <servlet>
+    <servlet-name>Users</servlet-name>
+    <servlet-class>
+      org.springframework.web.servlet.DispatcherServlet
+    </servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Users</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
 
   <!-- 增加中文乱码过滤器 -->
   <filter>
